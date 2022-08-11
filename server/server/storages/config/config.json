@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "slinky_fullstack",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "slinky_fullstack",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+
+  
+  "production": {
+    "username": "b013d5b9f0aec9",
+    "password": "be1bad76",
+    "database": "heroku_0e113e250f9aead",
+    "host": "eu-cdbr-west-03.cleardb.net",
+    "dialect": "mysql"
+  }
+}

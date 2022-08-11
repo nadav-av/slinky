@@ -1,0 +1,33 @@
+.calendar-container
+{
+  
+  position: absolute;
+  padding: 33px 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.calendar-glass {
+  left: 50%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  height: 97%;
+  width: 99%;
+  background: rgba(255, 248, 248, 0.371);
+  border-radius: 50px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  
+.calendar-form{
+    height: 100%;
+    width: 80%;
+    margin-top: 100px;
+  }
+

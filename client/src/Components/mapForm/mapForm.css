@@ -1,0 +1,163 @@
+.map-modal
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mapBackGround{
+background-image:url("./large-regular-office-floor-plan.png");
+height: 635px;
+width: 660px;
+
+}
+#c1{
+    position: absolute;
+    top: 220px;
+    left: 260px;
+    padding: 32px 32px;
+}
+#c2{
+    position: absolute;
+    top: 310px;
+    left: 260px;
+    padding: 32px 32px;
+
+}
+
+#c3{
+    position: absolute;
+    top: 400px;
+    left: 260px;
+    padding: 32px 32px;
+
+}
+
+#c4{
+    position: absolute;
+    top: 490px;
+    left: 260px;
+    padding: 32px 32px;
+
+}
+#c5{
+    position: absolute;
+    top: 220px;
+    left: 340px;
+    padding: 32px 32px;
+
+}
+#c6{
+    position: absolute;
+    top: 310px;
+    left: 340px;
+    padding: 32px 32px;
+
+}
+
+#c7{
+    position: absolute;
+    top: 400px;
+    left: 340px;
+    padding: 32px 32px;
+
+}
+
+#c8{
+    position: absolute;
+    top: 490px;
+    left: 340px;
+    padding: 32px 32px;
+}
+#o1{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    padding: 100px 100px;
+
+}
+#o2{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    padding: 60px 100px;
+
+}
+
+#o3{
+    position: absolute;
+    top: 540px;
+    left: 0px;
+    padding: 60px 100px;
+
+}
+
+#o4{
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    padding: 140px 77px;
+
+}
+#o5{
+    position: absolute;
+    top: 350px;
+    left: 480px;
+    padding: 70px 75px;
+
+}
+#o6{
+    position: absolute;
+    top: 510px;
+    left: 480px;
+    padding: 70px 75px;
+
+}
+    .btn-map {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: transparent;
+  }
+  
+   .btn-map:hover {
+    background-color: yellow;
+    opacity: 0.2;
+    border-color: rgb(43, 48, 12);
+    border-style: solid;
+  }
+
+  .map-center{
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.05);
+  }
+
+  #map2{
+    background-image:url("./office2.jpg");
+    height: 550px;
+    width: 660px;
+    background-repeat: no-repeat;
+    }
+    #o7{
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        padding: 120px 84px;
+    }
+    #o8{
+        position: absolute;
+        top: 50px;
+        left: 190px;
+        padding: 120px 76px;
+    }
+    #o9{
+        position: absolute;
+        top: 50px;
+        left: 360px;
+        padding: 262px 140px;
+    }

@@ -1,0 +1,60 @@
+.notifications-feature
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+.notification-data {
+    position: relative;
+    margin-top: 20px;
+    max-height: 68%;
+    overflow-y: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+
+.notification-container-array{
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
+
+#create-btn-not{
+margin-left: 42%;
+background-color: #4c56af;
+border: none;
+border-radius: 10px;
+color: white;
+padding: 6px 12px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+}
+
+
+#create-btn-not:hover{
+background-color: #4c70af;
+
+
+}
+
+#board-title-txt{
+margin-top: 5%;
+margin-left: 38%;
+}
+
+.notifi-loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

@@ -1,0 +1,94 @@
+.user-booking-table
+{
+  position: absolute;
+  top: 20%;
+}
+
+.booking-table
+{
+  max-height: 450px;
+  overflow-y: auto;
+  overflow-x: auto;
+
+}
+
+
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+
+}
+
+
+.content-table thead tr {
+  background-color: #36304a;
+  color: #ffffff; 
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #36304a;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #36304a;
+}
+
+.del-book-btn
+{
+  background-color: #36304a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.del-book-btn:hover
+{
+  color: rgb(255, 70, 70);
+}
+
+.img-not-found{
+  height: 200px;
+  width: 200px;
+}
+
+.empty-table-icon
+{
+  font-size: 100px;
+  margin-bottom: 30px;
+  color: #A77BCA;
+}
+
+.empty-table-container
+{
+  text-align: center;
+  margin-top: 30px;
+}
